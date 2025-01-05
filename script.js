@@ -7,9 +7,9 @@ window.addEventListener("scroll", function () {
   }
 });
 
-let menuItems = document.querySelectorAll(".nav-links a");
+let navLinks = document.querySelectorAll(".nav-links a");
 
-menuItems.forEach(function (item) {
+navLinks.forEach(function (item) {
   item.addEventListener("mouseenter", function () {
     this.style.color = "#ff9900";
   });
